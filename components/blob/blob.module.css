@@ -1,0 +1,25 @@
+#blob {
+  /*  padding: 20px; */
+  min-width: 500px;
+  min-height: 500px;
+}
+#blob > * {
+  fill: royalblue;
+  animation-duration: 15s;
+  animation: none;
+}
+
+#el1 {
+  cx: 180;
+  cy: 280;
+}
+#el2 {
+  cy: 270;
+}
+#el3 {
+  cx: 200;
+}
+#el4 {
+  cx: 280;
+  cy: 200;
+}

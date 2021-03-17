@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Stirling Sports",
+    "description": "A full-stack sports e-commerce site. Has user authentication, product category and search, and simulating orders with stripe.",
+    "repoUrl": "https://github.com/rodrigojmr/stirling-commerce",
+    "liveUrl": "https://stirling-sports-commerce.herokuapp.com/",
+    "technologies": [
+      "react",
+      "typescript",
+      "chakra-ui",
+      "html",
+      "css",
+      "node",
+      "prisma",
+      "postgresql",
+      "stripe"
+    ],
+    "image": "images/content/projects/stirling-sports/stirling-sports.webp"
+  },
+  {
+    "title": "Localista",
+    "description": "Localista's mission is to encourage the support of local businesses. Locals can sign up as an owner of a business, and other locals can find places owned by locals around them and support them. To be remade as a React Native app.",
+    "repoUrl": "https://github.com/rodrigojmr/localista",
+    "liveUrl": "https://localista.netlify.app/",
+    "technologies": ["react", "node", "html", "sass", "mongodb"],
+    "image": "images/content/projects/localista/localista.webp"
+  }
+]
