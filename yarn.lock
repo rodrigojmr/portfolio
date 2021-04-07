@@ -941,17 +941,17 @@
   dependencies:
     "@chakra-ui/utils" "1.3.0"
 
-"@chakra-ui/icon@1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-1.1.4.tgz#7e9d6635965ab555e2a796c1d4d3d1bd7f6f1fe5"
+"@chakra-ui/icon@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-1.1.5.tgz#f37abe47fd176a4c291d2037df2d6ed480622c09"
   dependencies:
-    "@chakra-ui/utils" "1.5.0"
+    "@chakra-ui/utils" "1.5.1"
 
-"@chakra-ui/icons@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-1.0.8.tgz#151694d73bfa7aaedbaaff633dae8cb1d83cd2ac"
+"@chakra-ui/icons@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-1.0.9.tgz#3551805b156c4a69b324fce22504ca5288da72e4"
   dependencies:
-    "@chakra-ui/icon" "1.1.4"
+    "@chakra-ui/icon" "1.1.5"
     "@types/react" "^17.0.0"
 
 "@chakra-ui/image@1.0.8":
@@ -1265,9 +1265,9 @@
     css-box-model "1.2.1"
     lodash.mergewith "4.6.2"
 
-"@chakra-ui/utils@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-1.5.0.tgz#8ba5ac1353d85c7fbdfa843c8023d9a2b4a2915d"
+"@chakra-ui/utils@1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-1.5.1.tgz#a01fd14f6d948a13c2644cfa844f410299135ffc"
   dependencies:
     "@types/lodash.mergewith" "4.6.6"
     css-box-model "1.2.1"
