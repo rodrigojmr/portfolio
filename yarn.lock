@@ -4462,15 +4462,15 @@ miller-rabin@^4.0.0:
     bn.js "^4.0.0"
     brorand "^1.0.1"
 
-mime-db@1.46.0:
-  version "1.46.0"
-  resolved "https://registry.npmjs.org/mime-db/-/mime-db-1.46.0.tgz"
+mime-db@1.47.0:
+  version "1.47.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.47.0.tgz#8cb313e59965d3c05cfbf898915a267af46a335c"
 
-mime-types@2.1.29, mime-types@^2.1.12:
-  version "2.1.29"
-  resolved "https://registry.npmjs.org/mime-types/-/mime-types-2.1.29.tgz"
+mime-types@2.1.30, mime-types@^2.1.12:
+  version "2.1.30"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.30.tgz#6e7be8b4c479825f85ed6326695db73f9305d62d"
   dependencies:
-    mime-db "1.46.0"
+    mime-db "1.47.0"
 
 mimic-fn@^2.1.0:
   version "2.1.0"
@@ -5450,9 +5450,9 @@ rehype@^11.0.0:
     rehype-stringify "^8.0.0"
     unified "^9.0.0"
 
-release-it@^14.5.1:
-  version "14.5.1"
-  resolved "https://registry.yarnpkg.com/release-it/-/release-it-14.5.1.tgz#79c971f84bb827794a7ddef0b6209bbb5e978ff8"
+release-it@^14.6.0:
+  version "14.6.0"
+  resolved "https://registry.yarnpkg.com/release-it/-/release-it-14.6.0.tgz#f45947cddb66aacc66c724c287699da0c70140e7"
   dependencies:
     "@iarna/toml" "2.2.5"
     "@octokit/rest" "18.5.2"
@@ -5471,7 +5471,7 @@ release-it@^14.5.1:
     inquirer "8.0.0"
     is-ci "3.0.0"
     lodash "4.17.21"
-    mime-types "2.1.29"
+    mime-types "2.1.30"
     ora "5.4.0"
     os-name "4.0.0"
     parse-json "5.2.0"
