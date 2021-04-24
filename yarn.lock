@@ -1643,16 +1643,6 @@
     progress "^2.0.3"
     proxy-from-env "^1.1.0"
 
-"@sentry/core@6.2.2":
-  version "6.2.2"
-  resolved "https://registry.npmjs.org/@sentry/core/-/core-6.2.2.tgz"
-  dependencies:
-    "@sentry/hub" "6.2.2"
-    "@sentry/minimal" "6.2.2"
-    "@sentry/types" "6.2.2"
-    "@sentry/utils" "6.2.2"
-    tslib "^1.9.3"
-
 "@sentry/core@6.2.5":
   version "6.2.5"
   resolved "https://registry.yarnpkg.com/@sentry/core/-/core-6.2.5.tgz#e75093f8598becc0a4a0be927f32f7ac49e8588f"
@@ -1663,12 +1653,14 @@
     "@sentry/utils" "6.2.5"
     tslib "^1.9.3"
 
-"@sentry/hub@6.2.2":
-  version "6.2.2"
-  resolved "https://registry.npmjs.org/@sentry/hub/-/hub-6.2.2.tgz"
+"@sentry/core@6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-6.3.1.tgz#5e32ca919c9be30fec0bb3125a556bc711584bdf"
   dependencies:
-    "@sentry/types" "6.2.2"
-    "@sentry/utils" "6.2.2"
+    "@sentry/hub" "6.3.1"
+    "@sentry/minimal" "6.3.1"
+    "@sentry/types" "6.3.1"
+    "@sentry/utils" "6.3.1"
     tslib "^1.9.3"
 
 "@sentry/hub@6.2.5":
@@ -1679,12 +1671,12 @@
     "@sentry/utils" "6.2.5"
     tslib "^1.9.3"
 
-"@sentry/minimal@6.2.2":
-  version "6.2.2"
-  resolved "https://registry.npmjs.org/@sentry/minimal/-/minimal-6.2.2.tgz"
+"@sentry/hub@6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@sentry/hub/-/hub-6.3.1.tgz#dda07888a82d1c48bbefa00205bfa9d035691f07"
   dependencies:
-    "@sentry/hub" "6.2.2"
-    "@sentry/types" "6.2.2"
+    "@sentry/types" "6.3.1"
+    "@sentry/utils" "6.3.1"
     tslib "^1.9.3"
 
 "@sentry/minimal@6.2.5":
@@ -1695,50 +1687,58 @@
     "@sentry/types" "6.2.5"
     tslib "^1.9.3"
 
-"@sentry/node@^6.2.2":
-  version "6.2.2"
-  resolved "https://registry.npmjs.org/@sentry/node/-/node-6.2.2.tgz"
+"@sentry/minimal@6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@sentry/minimal/-/minimal-6.3.1.tgz#38f71c77e8820555effb6e868336d4f5672018cd"
   dependencies:
-    "@sentry/core" "6.2.2"
-    "@sentry/hub" "6.2.2"
-    "@sentry/tracing" "6.2.2"
-    "@sentry/types" "6.2.2"
-    "@sentry/utils" "6.2.2"
+    "@sentry/hub" "6.3.1"
+    "@sentry/types" "6.3.1"
+    tslib "^1.9.3"
+
+"@sentry/node@^6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@sentry/node/-/node-6.3.1.tgz#0f81a0e352fa5b3e36bcc53adb6e26cd214c637d"
+  dependencies:
+    "@sentry/core" "6.3.1"
+    "@sentry/hub" "6.3.1"
+    "@sentry/tracing" "6.3.1"
+    "@sentry/types" "6.3.1"
+    "@sentry/utils" "6.3.1"
     cookie "^0.4.1"
     https-proxy-agent "^5.0.0"
     lru_map "^0.3.3"
     tslib "^1.9.3"
 
-"@sentry/tracing@6.2.2":
-  version "6.2.2"
-  resolved "https://registry.npmjs.org/@sentry/tracing/-/tracing-6.2.2.tgz"
+"@sentry/tracing@6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@sentry/tracing/-/tracing-6.3.1.tgz#3b96aabf4d9cebadfec070c006db79801a68ee24"
   dependencies:
-    "@sentry/hub" "6.2.2"
-    "@sentry/minimal" "6.2.2"
-    "@sentry/types" "6.2.2"
-    "@sentry/utils" "6.2.2"
+    "@sentry/hub" "6.3.1"
+    "@sentry/minimal" "6.3.1"
+    "@sentry/types" "6.3.1"
+    "@sentry/utils" "6.3.1"
     tslib "^1.9.3"
-
-"@sentry/types@6.2.2":
-  version "6.2.2"
-  resolved "https://registry.npmjs.org/@sentry/types/-/types-6.2.2.tgz"
 
 "@sentry/types@6.2.5":
   version "6.2.5"
   resolved "https://registry.yarnpkg.com/@sentry/types/-/types-6.2.5.tgz#34b75285b149e0b9bc5fd54fcc2c445d978c7f2e"
 
-"@sentry/utils@6.2.2":
-  version "6.2.2"
-  resolved "https://registry.npmjs.org/@sentry/utils/-/utils-6.2.2.tgz"
-  dependencies:
-    "@sentry/types" "6.2.2"
-    tslib "^1.9.3"
+"@sentry/types@6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-6.3.1.tgz#af3b54728b29f633f38fbe51b8c10e3834fbc158"
 
 "@sentry/utils@6.2.5":
   version "6.2.5"
   resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-6.2.5.tgz#be90d056b09ed1216097d7a29e3e81ba39238e1b"
   dependencies:
     "@sentry/types" "6.2.5"
+    tslib "^1.9.3"
+
+"@sentry/utils@6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-6.3.1.tgz#6d8e691139b5b49d8c655ad1dcaf2cb3ff0d0b03"
+  dependencies:
+    "@sentry/types" "6.3.1"
     tslib "^1.9.3"
 
 "@sentry/webpack-plugin@^1.14.2":
