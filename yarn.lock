@@ -6351,9 +6351,9 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
 
-typescript@^4.2.3:
-  version "4.2.3"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.2.3.tgz"
+typescript@^4.2.4:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.4.tgz#8610b59747de028fda898a8aef0e103f156d0961"
 
 uglify-js@^3.1.4:
   version "3.12.4"
